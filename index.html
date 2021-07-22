@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-kala">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="" width="70"
+                        height="55" class="d-inline-block align-text-top">
+                        <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                        aria-controls="offcanvasTop"><i class="fas fa-bars me-2"></i>Menu</button>
+                </a>
+                <button class="navbar-toggler navbtn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex align-items-center" id="navbarSupportedContent">
+
+                    <!-- nav search area  -->
+
+                    <div class="input-group">
+                        <button type="button" class="btn btn-outline-secondary">All</button>
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                        <input width="100" type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                      </div>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">IMDBPro</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center">
+                            <i class="fas fa-bookmark text-light ms-3"></i>
+                            <a class="nav-link" aria-current="page" href="#">WATCHLIST</a>
+                            </div>
+                        </li>
+                        <li class="nav-item sign">
+                            <a class="nav-link" aria-current="page" href="#">SignIn</a>
+                        </li>
+                        
+                    </ul>
+                        
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- offcanvas -->
+
+        
+
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                ...
+            </div>
+        </div>
+    </header>
+
+    <!-- main area  -->
+
+    <main class="bg-kala">
+        <section class="container-fluid px-5">
+            <div class="row">
+                <div class="col-md-9">
+
+                    <!-- carousel area  -->
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="image position-relative">
+                                <img style="height: 90vh;" src="https://www.10wallpaper.com/wallpaper/1366x768/2003/Bloodshot_2020_Movies_HD_Poster_1366x768.jpg" class="d-block w-100" alt="...">
+                                <div class="sub-div position-absolute top-50 d-flex align-items-end">
+                                    <img class="me-3 shadow-lg" style="height: 250px;" src="https://i.redd.it/7m7wa213ccc41.jpg" alt="">
+                                    <iframe width="200" height="90" src="https://www.youtube.com/embed/vOUVVDWdXbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="image position-relative">
+                                <img style="height: 90vh;" src="https://c4.wallpaperflare.com/wallpaper/635/851/800/hotel-transylvania-2-movie-poster-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+                                <div class="sub-div position-absolute top-50 d-flex align-items-end">
+                                    <img class="me-3 shadow-lg" style="height: 250px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdEQa8Pdw5ciljUW2h5qJ1plZqrlFOjBMlsNn_RsKhXpJJhHz_aKGs_zAArnboU_WR34&usqp=CAU" alt="">
+                                    <iframe width="200" height="90" src="https://www.youtube.com/embed/cOlhzKPX0KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <div class="image position-relative">
+                                <img style="height: 90vh;" src="https://ebahrenburg.files.wordpress.com/2016/05/the_avengers_poster-banner.jpg" class="d-block w-100" alt="...">
+                                <div class="sub-div position-absolute top-50 d-flex align-items-end">
+                                    <img class="me-3 shadow-lg" style="height: 250px;" src="https://qph.fs.quoracdn.net/main-qimg-0c46ee41374ca6a14b3527f7b0d27209.webp" alt="">
+
+                                    <iframe width="200" height="90" src="https://www.youtube.com/embed/eOrNdBpGMv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+
+
+                <div class="col-md-3 text-light">
+                    <h2 class="text-warning">Up Next</h2>
+                    <div class="card border-0 bg-kala shadow-lg">
+                        <div class="row d-flex align-items-center">
+                          <div class="col-md-4">
+                            <img  class="hw" src="https://i.pinimg.com/originals/03/c0/c2/03c0c2137dd12b0dd65d89c3b2ac2baa.jpg"  alt="...">
+                          </div>
+                          <div class="col-md-8 ps-4">
+                            <div class="card-body">
+                              <h5 class="card-title"><i class="far fa-play-circle"></i> 2 min 47 sec</h5>
+                              <p class="card-text">Robin hood(2019)</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card border-0 bg-kala shadow-lg">
+                        <div class="row d-flex align-items-center">
+                          <div class="col-md-4">
+                            <img  class="hw" src="https://www.teahub.io/photos/full/202-2027279_hollywood-movie-poster-amazing.jpg"  alt="...">
+                          </div>
+                          <div class="col-md-8 ps-4">
+                            <div class="card-body">
+                              <h5 class="card-title"><i class="far fa-play-circle"></i> 4 min 12 sec</h5>
+                              <p class="card-text">Man of Steel(2018)</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card border-0 bg-kala shadow-lg">
+                        <div class="row d-flex align-items-center">
+                          <div class="col-md-4">
+                            <img class="hw" src="https://flxt.tmsimg.com/assets/p8915813_p_v8_am.jpg"  alt="...">
+                          </div>
+                          <div class="col-md-8 ps-4">
+                            <div class="card-body">
+                              <h5 class="card-title"><i class="far fa-play-circle"></i> 3 min 51 sec</h5>
+                              <p class="card-text">The Dickdator(2012)</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="text-warning">Browse Trailers <i class="fas fa-chevron-right"></i></h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://kit.fontawesome.com/b7ab4b2e5e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.bg-kala{
+    background: black;
+}
+.hw{
+    height: 160px;
+    width: 120px;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 991px) {
+    .navbtn{
+        display: none;
+    }
+    ul.navbar-nav .nav-item {
+        display: none;
+    }
+    ul.navbar-nav .sign{
+        display: block;
+        margin-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .input-group {
+        display: none;
+    }
+  }
+
+  /* class="img-fluid rounded-start" */
