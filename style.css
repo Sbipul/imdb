@@ -2,6 +2,13 @@ body{
     margin: 0;
     padding: 0;
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
 .bg-kala{
     background: black;
 }
@@ -10,6 +17,25 @@ body{
     width: 120px;
     margin-bottom: 5px;
 }
+.ht{
+    height: 90vh;
+}
+.ifram{
+    width: 100%;
+    height:220px;
+}
+.nn{
+    display: none;
+}
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+}
+ul.ppp li:hover {
+    border-bottom: 5px solid #dc9600;
+    transition: .5s;
+}
 @media only screen and (max-width: 991px) {
     .navbtn{
         display: none;
@@ -17,14 +43,38 @@ body{
     ul.navbar-nav .nav-item {
         display: none;
     }
-    ul.navbar-nav .sign{
+    /* ul.navbar-nav .sign{
         display: block;
         margin-left: 10px;
+    } */
+    .input-group {
+        display: none;
+    }
+    .nn{
+        display: block;
     }
   }
   @media only screen and (max-width: 600px) {
     .input-group {
         display: none;
+    }
+    .ht {
+        height: 50vh;
+        width: 100%;
+    }
+    .ifram {
+        width: 100%;
+    }
+    .hw{
+        height: 290px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .nn{
+        display: block;
+    }
+    ul.ppp li {
+        display: block;
     }
   }
 
