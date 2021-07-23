@@ -36,6 +36,11 @@ ul.ppp li:hover {
     border-bottom: 5px solid #dc9600;
     transition: .5s;
 }
+.offcanvas-body {
+    height: 60vh;
+    background: black;
+    overflow: visible;
+}
 @media only screen and (max-width: 991px) {
     .navbtn{
         display: none;
