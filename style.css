@@ -53,6 +53,11 @@ ul.ppp li:hover {
     .nn{
         display: block;
     }
+    .main-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+    }
   }
   @media only screen and (max-width: 600px) {
     .input-group {
@@ -73,8 +78,14 @@ ul.ppp li:hover {
     .nn{
         display: block;
     }
-    ul.ppp li {
-        display: block;
+    ul.ppp {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .main-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
     }
   }
 
